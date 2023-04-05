@@ -1,0 +1,77 @@
+{
+  "transactions": [
+    {
+      "hash": "0xcae7c543397f6997e18743d9095370a0e520da541994dc5c9d06e175c4d49f9b",
+      "transactionType": "CREATE",
+      "contractName": "Attack",
+      "contractAddress": "0x56AFA932a2e147F956EC4b8E83Fb8Cb373f1661A",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://eth-goerli.g.alchemy.com/v2/S38K9fPG_R68KrnK1eG0h3lrtFNl5ZnV",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xe6e2595f5f910c8a6c4cf42267ca350c6ba8c054",
+        "gas": "0x38d59",
+        "value": "0x0",
+        "data": "0x6080604052600080546001600160a01b03191673174824ebf59ec8aae10c7d8776d8d59e538a68f117905534801561003657600080fd5b50600054604051635217105560e01b8152602060048201526008602482015267676f6f646e65737360c01b60448201526001600160a01b0390911690635217105590606401600060405180830381600087803b15801561009557600080fd5b505af11580156100a9573d6000803e3d6000fd5b505050506065806100bb6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063688353cd14602d575b600080fd5b00fea2646970667358221220d6c8572d79efc94136973f005432c2cc871ad63ab6b3aedb4ceb5e985e65fdd864736f6c63430008130033",
+        "nonce": "0x28",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": null,
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": null,
+      "function": null,
+      "arguments": null,
+      "rpc": "https://eth-goerli.g.alchemy.com/v2/S38K9fPG_R68KrnK1eG0h3lrtFNl5ZnV",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xe6e2595f5f910c8a6c4cf42267ca350c6ba8c054",
+        "to": "0x174824ebf59ec8aae10c7d8776d8d59e538a68f1",
+        "gas": "0x7199",
+        "value": "0x2386f26fc10000",
+        "data": "0x",
+        "nonce": "0x29",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": null,
+      "transactionType": "CALL",
+      "contractName": "Attack",
+      "contractAddress": "0x56AFA932a2e147F956EC4b8E83Fb8Cb373f1661A",
+      "function": "attak()",
+      "arguments": [],
+      "rpc": "https://eth-goerli.g.alchemy.com/v2/S38K9fPG_R68KrnK1eG0h3lrtFNl5ZnV",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xe6e2595f5f910c8a6c4cf42267ca350c6ba8c054",
+        "to": "0x56afa932a2e147f956ec4b8e83fb8cb373f1661a",
+        "gas": "0x78e5",
+        "value": "0x0",
+        "data": "0x688353cd",
+        "nonce": "0x2a",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0xcae7c543397f6997e18743d9095370a0e520da541994dc5c9d06e175c4d49f9b"
+  ],
+  "path": "/home/superman/Desktop/solidity/crack-contract/broadcast/attack.s.sol/5/run-latest.json",
+  "returns": {},
+  "timestamp": 1680710270,
+  "chain": 5,
+  "multi": false,
+  "commit": "5525d14"
+}
